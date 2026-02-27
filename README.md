@@ -39,6 +39,13 @@ providers = detectProviders(projectRoot)
 result = install({ source, providers, scope, projectRoot, method, force })
 ```
 
+## Integration Case Studies
+
+Real-world integrations showing how little code is needed to embed `skillinstaller`:
+
+- `steam-cli`: https://github.com/j0nl1/steam-cli/commit/3a6838faf2fb2db08d069547b7956a19c44e00dc
+- `aitracker`: https://github.com/j0nl1/aitracker/commit/ec348cf0d6d9155c98f3f51912dc80ac6f20930f
+
 Shared types:
 
 - `Scope`: `project | user`
