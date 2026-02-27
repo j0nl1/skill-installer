@@ -1,0 +1,9 @@
+# Rust build artifacts
+target/
+
+# Node dependencies
+node_modules/
+ts/node_modules/
+
+# Build output
+ts/dist/
